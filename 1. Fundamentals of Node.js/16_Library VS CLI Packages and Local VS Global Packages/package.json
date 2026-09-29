@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "abc": "vite"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "date-fns": "^4.4.0"
+  }
+}

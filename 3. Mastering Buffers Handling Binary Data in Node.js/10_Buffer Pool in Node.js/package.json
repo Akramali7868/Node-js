@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "debug": "node --inspect-brk app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2"
+  }
+}

@@ -1,0 +1,19 @@
+4:50:48 pm
+ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png' 
+ Error: ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png'
+    at async open (node:internal/fs/promises:639:25)
+    at async readFile (node:internal/fs/promises:1252:14)
+    at async file:///D:/BackEnd/21_Writing%20to%20a%20File%20Using%20Node.js/app.js:8:25
+4:50:53 pm
+ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png' 
+ Error: ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png'
+    at async open (node:internal/fs/promises:639:25)
+    at async readFile (node:internal/fs/promises:1252:14)
+    at async file:///D:/BackEnd/21_Writing%20to%20a%20File%20Using%20Node.js/app.js:8:25
+4:51:05 pm
+ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png' 
+ Error: ENOENT: no such file or directory, open 'D:\BackEnd\21_Writing to a File Using Node.js\imagefs.png'
+    at async open (node:internal/fs/promises:639:25)
+    at async readFile (node:internal/fs/promises:1252:14)
+    at async file:///D:/BackEnd/21_Writing%20to%20a%20File%20Using%20Node.js/app.js:8:25
+

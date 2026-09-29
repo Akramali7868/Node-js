@@ -1,0 +1,8 @@
+ 1. fs.readFileSync se ek ek line execute hota hai our main thread ko block karke rakhta hai
+  2. fs.readFile ye jab run hota hai to ye nodejs ke alag thread me chal raha hota hai baki code run hota  rahta hai our hamare main thread ko block nai karta hai
+
+3. import fs from "node:fs/promises";
+ const a = await fs.readFile("./npx-searching-step.txt");
+
+ sabse best ye hota hai
+
