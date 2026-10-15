@@ -1,0 +1,18 @@
+[
+  { "id": 10, "name": "test.png", "parentDir": 321, "size": 4353 },
+  {
+    "id": "55802630-465a-464d-abdc-c0d7dc612141",
+    "extension": ".txt",
+    "name": "test.txt"
+  },
+  {
+    "id": "8d0057a6-a190-4d12-b8ae-4df41b8e66c1",
+    "extension": ".png",
+    "name": "scan.png"
+  },
+  {
+    "id": "a29c185f-1312-4d6a-b3a1-353f8954cf86",
+    "extension": ".csv",
+    "name": "invoice.csv"
+  }
+]

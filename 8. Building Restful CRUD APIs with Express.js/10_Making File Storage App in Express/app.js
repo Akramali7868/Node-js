@@ -1,0 +1,26 @@
+import express from "express";
+import { readdir } from "fs/promises";
+
+const app = express();
+// Enabling CORS
+app.use((req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  next();
+});
+// Serving File
+app.use((req, res, next) => {
+  if (req.query.action === "download") {
+    res.set("Content-Disposition", "attachment");
+  }
+  express.static("storage")(req, res, next);
+});
+
+// Serving Dir Content
+app.get("/", async (req, res) => {
+  const fileList = await readdir("./storage");
+  res.json(fileList);
+});
+
+app.listen(4000, () => {
+  console.log(`Server Started`);
+});
